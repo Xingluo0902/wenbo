@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿里巴巴矢量图标库</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(9, 7, 35);
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: rgb(9, 7, 35);
+        }
+        
+        li {
+            float: left;
+        }
+        
+        .dx {
+            font: 400 35px 'Microsoft yahei';
+        }
+        
+        li a,
+        .dn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 20px 25px;
+            text-decoration: none;
+        }
+        
+        li a:hover,
+        .dr:hover .dn {
+            background-color: skyblue;
+        }
+        
+        li.dr {
+            display: inline-block;
+        }
+        
+        .dc {
+            display: none;
+            position: absolute;
+            background-color: ;
+            min-width: 160px;
+        }
+        
+        .dc a {
+            color: rgb(122, 120, 120);
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        
+        .dc a:hover {
+            background-color: darkgrey;
+        }
+        
+        .dr:hover .dc {
+            display: block;
+        }
+        
+        .sa {
+            color: white;
+            float: left;
+        }
+        
+        .sa:hover {
+            background-color: rgb(9, 7, 35);
+        }
+        
+        .div {
+            display: inline-block;
+            color: white;
+            width: 1420px;
+            height: 50px;
+            background-color: rgb(9, 7, 35);
+            text-align: center;
+            font: 400 30px 'Microsoft yahei';
+        }
+        
+        .mig a {
+            display: inline-block;
+            background-color: skyblue;
+            width: 228px;
+            height: 240px;
+            text-decoration: none;
+            color: white;
+            background-repeat: no-repeat;
+            background-position: center center;
+            text-align: center;
+            line-height: 330px;
+            border-radius: 20px;
+        }
+        
+        .mig {
+            text-align: center;
+            line-height: 240px;
+        }
+        
+        .img1 {
+            background-image: url(jb.jpg);
+        }
+        
+        .img2 {
+            background-image: url(jb.jpg);
+        }
+        
+        .img3 {
+            background-image: url(jb.jpg);
+        }
+        
+        .img4 {
+            background-image: url(jb.jpg);
+        }
+        
+        .img5 {
+            background-image: url(jb.jpg);
+        }
+        
+        .mig .img1:hover {
+            background-image: url(jb01.jpg);
+        }
+        
+        .mig .img2:hover {
+            background-image: url(jb02.jpg);
+        }
+        
+        .mig .img3:hover {
+            background-image: url(jb03.jpg);
+        }
+        
+        .mig .img4:hover {
+            background-image: url(jb04.jpg);
+        }
+        
+        .mig .img5:hover {
+            background-image: url(jb05.jpg);
+        }
+        
+        .c {
+            float: right;
+            margin: 10px 80px;
+        }
+        
+        .c a:hover {
+            background-color: ivory;
+        }
+        
+        .ser {
+            float: right;
+            background-color: rgb(9, 7, 35);
+            margin-left: 100px;
+            width: 40px;
+            height: 50px;
+            margin: 24px 60px;
+        }
+        
+        button {
+            float: right;
+            width: 22px;
+            height: 22px;
+            margin-right: 213.2px;
+            background-color: rgb(9, 7, 35);
+            border: none;
+        }
+        
+        .ser input {
+            background-color: rgb(9, 7, 35);
+            color: rgb(148, 134, 134);
+            border: 1px solid rgb(148, 134, 134);
+        }
+        
+        .y {
+            width: 1520px;
+            height: 120px;
+            background-color: white;
+        }
+        
+        .y .t {
+            text-align: center;
+            font-family: '宋体';
+            font-size: 35px;
+            font-weight: 400;
+        }
+        
+        .u {
+            text-align: center;
+            color: rgb(153, 153, 153);
+            font-size: 14px;
+        }
+        
+        .i {
+            width: 1520px;
+            height: 500px;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            background-image: url(i0.jpg);
+            background-position: center center;
+        }
+        
+        .spanl {
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 350px;
+        }
+        
+        .mig1 {
+            background-image: url(i1.jpg);
+            background-repeat: no-repeat;
+            background-position: 100px 80px;
+        }
+        
+        .mig2 {
+            background-image: url(i2.jpg);
+            background-repeat: no-repeat;
+            background-position: 100px 80px;
+        }
+        
+        .mig3 {
+            background-image: url(i3.jpg);
+            background-repeat: no-repeat;
+            background-position: 100px 80px;
+        }
+        
+        .mig4 {
+            background-image: url(i4.jpg);
+            background-repeat: no-repeat;
+            background-position: 100px 80px;
+        }
+        
+        .mar {
+            margin-left: 100px;
+        }
+        
+        .spanu {
+            display: inline-block;
+            width: 300px;
+            height: 100px;
+            background-color: #fff;
+            text-align: center;
+            color: gray;
+            font-size: 12px;
+        }
+        
+        .mar {
+            margin-left: 150px;
+        }
+        
+        .mer {
+            margin-left: 0px;
+        }
+        
+        .q {
+            width: 1520px;
+            height: 500px;
+            background-color: #fff;
+        }
+        
+        .b {
+            display: inline-block;
+            width: 1520px;
+            height: 700px;
+            background-image: url(u3.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+        
+        .m {
+            display: inline-block;
+            width: 1520px;
+            height: 840px;
+            background-image: url(u5.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+        
+        .g {
+            float: right;
+            margin-right: 100px;
+            margin-bottom: 50px;
+        }
+        
+        .g1 {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-image: url(l1.jpg);
+        }
+        
+        .g2 {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-image: url(l2.jpg);
+        }
+        
+        .g3 {
+            display: block;
+            width: 70px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-image: url(l3.jpg);
+        }
+    </style>
+
+    <base target="_blank">
+</head>
+
+<body>
+    <ul>
+        <li class="dx">
+            <a href="#" class="sa">iconfont</a>
+        </li>
+        <li id="sy"><a href="#">首页</a></li>
+        <li> <a href="#">插画库</a></li>
+        <li class="dr"><a href="#" class="dn">图标库</a>
+            <div class="dc">
+                <a href="#">官方图标库</a>
+                <a href="#">多色图标库</a>
+                <a href="#">单色图标库</a>
+                <a href="#">所有图标库</a>
+            </div>
+        </li>
+        <li class="dr"><a href="#" class="dn">资源管理</a>
+            <div class="dc">
+                <a href="#">我的图标</a>
+                <a href="#">我的收藏</a>
+                <a href="#">我的项目</a>
+                <a href="#">我的插画</a>
+            </div>
+        </li>
+        <li class="dr"><a href="#" class="dc">帮助</a>
+            <div class="dc">
+                <a href="#">功能介绍</a>
+                <a href="#">图表绘制</a>
+                <a href="#">代码应用</a>
+                <a href="#">相关文章</a>
+                <a href="#">关于我们</a>
+            </div>
+        </li>
+        <li><a href="#">活动</a>
+            <li class="dr"><a href="#" class="dn"><strong>...</strong></a>
+                <div class="dc">
+                    <a href="#">在线字体</a>
+                    <a href="#">功能建议</a>
+                    <a href="#">阿里巴巴普惠体</a>
+                </div>
+            </li>
+            <div class="c">
+                <a href="#"><img src="1.jpg"></a>
+                <a href="#"><img src="2.jpg"></a>
+                <a href="#"><img src="4.jpg"></a>
+                <a href="#"><img src="3.jpg"></a>
+            </div>
+            <div class="ser">
+                <input type="text" value="请搜索图标和人">
+                <button>  </button>
+            </div>
+
+    </ul>
+
+    <div class="div">
+        使用说明
+    </div>
+
+    <div class="mig">
+        <a href="#" class="img1">功能介绍</a> &nbsp;
+        <a href="#" class="img2">图表绘制</a>&nbsp;
+        <a href="#" class="img3">代码应用</a>&nbsp;
+        <a href="#" class="img4">相关文章</a>&nbsp;
+        <a href="#" class="img5">关于我们</a>
+    </div>
+    <div class="y">
+        <h3 class="t">Infont是什么？</h3>
+        <p class="u"> 阿里妈妈MUX倾力打造的矢量图标管理、交流平台，设计师将图标上传到Iconfont平台，用户可以自定义下载 <br/> 多种格式的icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。</p>
+    </div>
+    <div class="i"></div>
+    <div class="q">
+        <div class="mar">
+            <span class="mig1 spanl"> <p>海量图标自定义下载</p> 
+    
+   </span>
+            <span class="mig2 spanl"> <p>将图标转化为字体应用</p> </span>
+
+            <span class="mig3 spanl"> <p>项目协同合作</p> 
+     </span>
+            <span class="mig4  spanl"> <p>原创icon交流平台</p> 
+    </span>
+            <div class="mer">
+                <span class="spanu"><p>支持AI / SVG / PNG / 代码格式下载 <br/> 支持按路径改变icon颜色</p></span>
+                <span class="spanu"><p>添加项目的图标，可以生成在线链接 <br/> 以字体形式进行复用</p></span>
+                <span class="spanu"><p>创建项目后上传icon，成员可以下载图标 <br/> 前端同学可以将图标添加至代码</p></span>
+                <span class="spanu"><p>我们提供一个原创图标共享、交流平台 <br/> 尊重原创，尊重每个设计师</p></span>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <span class="b"> </span>
+        <span class="m"></span>
+    </div>
+    <div class="g">
+        <a href="#"><span class="g1">  </span></a>
+        <a href="#"><span class="g2">  </span></a>
+        <a href="#sy" target="_self"> <span class="g3"></span></a>
+    </div>
+</body>
+
+</html>
